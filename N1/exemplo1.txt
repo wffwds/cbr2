@@ -1,0 +1,8 @@
+entero i;
+entero n;
+leer i;
+n = i * 3;
+para i del 1 <= 10 hacer
+escribir i;
+finpara;
+devolver 0;

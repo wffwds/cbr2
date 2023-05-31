@@ -1,0 +1,15 @@
+<carta> := a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z
+<numero> := 0|1|2|3|4|5|6|7|8|9
+<var> := <carta>|<carta><numero>
+<oparitmetico> := +|-|*|/
+<oprelacional> := >|<|=|!
+<varnum> := <var> | <numero>;
+<varnum> = <varnum> <oparitmetico> <varnum>;
+entero <var>;
+leer <var>;
+escribir <var>;
+para <var> del <var> hasta <var> hacer
+finpara;
+si <var> <oprelacional> <var> entonces
+finsi;
+devolver 0;

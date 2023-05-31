@@ -1,0 +1,16 @@
+entero x;
+entero i;
+entero a;
+entero y;
+leer x;
+y = x * 2;
+para i del 1 < 10 hacer
+escribir i;        
+finpara;
+si a > 5 entonces
+escribir a;
+finsi;
+si a = 3 entonces
+escribir a;
+finsi;
+devolver 0;
